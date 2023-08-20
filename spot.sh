@@ -1,0 +1,5 @@
+# python src/spot_downloader.py --symbol='BTCUSDT' --start_date='2022-01-01'
+# python src/spot_downloader.py --symbol='ETHUSDT' --start_date='2022-01-01'
+python src/spot_downloader.py --symbol='BNBUSDT' --start_date='2022-01-01'
+python src/spot_downloader.py --symbol='DOGEUSDT' --start_date='2022-01-01'
+# python src/spot_downloader.py --symbol='USDT' --start_date='2022-01-01'
