@@ -110,7 +110,6 @@ def fetch_kline_data(
         # shift the viewing window
         start_date = cut_point
         cut_point = start_date + HALF_DAY
-        time.sleep(1)
 
     agg_data = pd.concat(agg_data, axis=0)
     agg_data = agg_data.drop_duplicates()
