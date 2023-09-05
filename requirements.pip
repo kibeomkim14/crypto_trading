@@ -3,5 +3,7 @@ numpy
 pandas
 python-binance
 requests
+rel
 scipy
 statsmodels
+websocket-client

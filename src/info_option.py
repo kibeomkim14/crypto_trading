@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     # save option exchange information as csv
     underlyings_info.to_csv(BASE_DATA_PATH + "underlyings.csv")
-    option_contract_info.to_csv(BASE_DATA_PATH + "contracts.csv")
+    option_contract_info.sort_values(by='symbol').to_csv(BASE_DATA_PATH + "contracts.csv")
